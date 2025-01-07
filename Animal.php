@@ -1,0 +1,20 @@
+<?php
+    class Animal {
+
+        public$name;
+        public$legs;
+        public$coldblooded;
+
+        public function __construct($name,$legs,$coldblooded) {
+            $this->name = $name;
+            $this->legs = 4;
+            $this->coldblooded = "no" ;
+        }
+
+        public function __tostring(): string {
+            return "Name: ".$this->name."<br>"."Legs :".$this->legs."<br>".
+            "Cold Blooded: ".$this->coldblooded."<br>";
+        }
+
+    }
+?>
