@@ -4,7 +4,7 @@ require_once "Animal.php";
 class ape extends Animal {
 
   public function __construct() {
-    parent::__construct(name: "Ape",legs: 2,coldblooded: "No");
+    parent::__construct(name: "Kera sakti",legs: 2,coldblooded: "No");
     }
   
   public function yell(): string {

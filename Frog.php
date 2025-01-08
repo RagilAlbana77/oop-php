@@ -3,7 +3,7 @@ require_once "Animal.php";
 class frog extends Animal {
 
   public function __construct() {
-    parent ::__construct(name: "frog",legs: 2,coldblooded: "Yes");
+    parent ::__construct(name: "Buduk",legs: 4,coldblooded: "Yes");
   }
 
   public function jump(): string {

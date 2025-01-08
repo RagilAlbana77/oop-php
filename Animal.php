@@ -7,7 +7,7 @@
 
         public function __construct($name,$legs,$coldblooded) {
             $this->name = $name;
-            $this->legs = 4;
+            $this->legs = $legs;
             $this->coldblooded = "no" ;
         }
 
